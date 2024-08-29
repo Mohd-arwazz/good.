@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    width: 400px;
+    height: 750px;
+    margin: 30px;
+    display: block;
+
+}
+.img img{
+    margin-left: 40px;
+    margin-top: 60px;
+    border: 2px solid white;
+}
+
+
+.name{
+    color:  rgba(15, 231, 234, 0.862);
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.name-1{
+    color:   rgba(15, 231, 234, 0.862);
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.box-1{
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    width: 900px;
+    height: 750px;
+    margin: 30px;
+    color: white;
+    display: block;
+}
+
+.detail{
+    text-align: center;
+    margin: 20px;
+}
+
+.Profile{
+    font-size: 40px;
+    color: rgb(49, 53, 100);
+}
+
+.god{
+    font-size: 30px;
+    margin: 50px;
+}
+
+.NAME{
+    margin: 30px;
+    color: aqua;
+}
+
+.age{
+    margin: 30px;
+    color: aqua;
+}
+.mob{
+    margin: 30px;
+    color: aqua;
+}
+.mail{
+    margin: 30px;
+    color: aqua;
+}
+.add{
+    margin: 30px;
+    color: aqua;
+}
+
+.icon{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media screen { max-width: 1000px;
+    
+}
